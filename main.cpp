@@ -40,6 +40,6 @@ int main()
 {
     string var;
     var="t";
-    SendToKeyboard((int)var[0]);
+    SendToKeyboard((int)var[0]); //it's sending system date and time
     return 0;
 }
